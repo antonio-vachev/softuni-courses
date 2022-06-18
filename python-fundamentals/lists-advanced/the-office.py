@@ -9,6 +9,11 @@
 # •	Otherwise:
 # "Score: {happy_count}/{total_count}. Employees are not happy!"
 
+# Example of input:
+# 1 2 3 4 2 1
+# 3
+
+
 happiness = list(map(int, input().split(" ")))
 improvement = int(input())
 improved_happiness = list(map(lambda x: x * improvement, happiness))
