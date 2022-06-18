@@ -2,6 +2,9 @@
 # •	the second and the last letter are switched (e.g., Holle means Hello)
 # •	the first letter is replaced by its character code (e.g., 72 means H)
 
+# An example of deciphered phrase could be: 72olle 103doo 100ya, which translates into Hello good day
+# or 82yade 115te 103o, which translates into Ready set go
+
 message = list(input().split(" "))
 deciphered_word = []
 
