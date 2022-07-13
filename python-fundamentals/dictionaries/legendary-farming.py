@@ -29,7 +29,6 @@
 
 
 requirement = 250
-current_stack = {}
 collecting = True
 key_materials = {}
 junk_materials = {}
